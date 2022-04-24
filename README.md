@@ -1,2 +1,1 @@
-# java-advanced
-Java Advanced Exploration
+# Java Advanced Exploration

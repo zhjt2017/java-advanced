@@ -1,0 +1,69 @@
+@startuml
+
+skinparam componentStyle rectangle
+package JMM-jdk8 {
+    component JVM {
+        component Stack(logical) {
+            component PC {
+                [Program Counter\n Register]
+            }
+            component Native-Stack {
+                [Native Stack]
+            }
+            component JVM-Stack as JS {
+                component Stack-Frame {
+                    [局部变量表]
+                    [操作数栈]
+                    [返回值]
+                    [动态链接\n(Class/Method指针)]
+                }
+            }
+            note bottom of JS : -Xss，设置每个线程栈的字节数。影响栈的深度。\n-Xss1m 指定线程栈为1MB(Jdk8默认值)\n与 -XX:ThreadStackSize=1m 等价
+        }
+        component Heap as H {
+            component YoungGen as Y {
+                [Eden-Space]
+                component Survivor {
+                    [S0]
+                    [S1]
+                }
+            }
+            component OldGen {
+                [Old Gen]
+            }
+            note top of Y : -Xmn, 官方建议设置为 -Xmx 的 1/2 ~ 1/4\n使用G1垃圾回收器不应该设置该选项
+        }
+        note bottom of H : Xmx 指定最大堆内存，\n设置时物理可用内存需要留20%~30%余量
+        note top of H : Xms 指定堆内存空间的初始大小，其并不是操作系统实际分配的初始值，\n而是GC先规划好，用到才分配\n服务器上需要保持-Xms与-Xmx一致，避免堆内存扩容导致性能抖动
+    }
+    component Local {
+        component Non-Heap {
+            component Metaspace\n(方法区) as M {
+                [(运行时)\n常量池]
+                [方法\n元信息]
+                [xlass\n元信息] as xlass
+            }
+            note top of M : -XX:MaxMetaspaceSize，一般不允许设置
+            component CodeCache {
+                [Code Cache\n (JIT)]
+            }
+            component CCS {
+                [Compressed\nClass Space]
+            }
+            xlass <--> CCS
+        }
+        component Direct-Memory as D {
+            [Native Library\n(Avoid IO Dupl)]
+        }
+        note bottom of D : -XX:MaxDirectMemorySize，\n系统可以使用的最大堆外内存，\n缺省情况：无限制。\n设置了软限制 64 MB，JVM 会根据需要\n自动使用 32 MB 的区块对此进行扩展。
+    }
+}
+component Heap-Content as HC {
+    [对象实例]
+    [静态变量]
+    [字符串常量池\n(存储直接引用)]
+    [线程分配缓冲区\n(TLAB)] as TL
+}
+H -- HC
+note top of TL : Thread Local Allocation Buffer\n默认开启 -XX:+UseTLAB
+@enduml

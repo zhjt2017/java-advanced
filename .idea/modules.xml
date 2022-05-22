@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-advanced.iml" filepath="$PROJECT_DIR$/java-advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week02/java-week02.iml" filepath="$PROJECT_DIR$/src/com/course/week02/java-week02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week03/netty-gateway.iml" filepath="$PROJECT_DIR$/src/com/course/week03/netty-gateway.iml" />
     </modules>
   </component>
 </project>

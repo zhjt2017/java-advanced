@@ -1,9 +1,8 @@
 package myspringboot.starter.prop;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-@ConfigurationProperties(prefix = "springboot.student")
+@ConfigurationProperties(prefix = "mystarter.student")
 public class StudentProperties {
 
     private int id;

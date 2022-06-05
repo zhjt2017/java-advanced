@@ -5,6 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" filepath="$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-advanced.iml" filepath="$PROJECT_DIR$/java-advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week02/java-week02.iml" filepath="$PROJECT_DIR$/src/com/course/week02/java-week02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/spring-annotation/myspring-bean-annotation.iml" filepath="$PROJECT_DIR$/src/com/course/week05/spring-annotation/myspring-bean-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/spring-xml/myspring-bean-xml.iml" filepath="$PROJECT_DIR$/src/com/course/week05/spring-xml/myspring-bean-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/jdbc/myspring-jdbc.iml" filepath="$PROJECT_DIR$/src/com/course/week05/jdbc/myspring-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/springboot-starter/myspringboot-starter.iml" filepath="$PROJECT_DIR$/src/com/course/week05/springboot-starter/myspringboot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/springboot-using/myspringboot-starter-using.iml" filepath="$PROJECT_DIR$/src/com/course/week05/springboot-using/myspringboot-starter-using.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week03/netty-gateway.iml" filepath="$PROJECT_DIR$/src/com/course/week03/netty-gateway.iml" />
     </modules>
   </component>

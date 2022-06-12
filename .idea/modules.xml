@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" filepath="$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-advanced.iml" filepath="$PROJECT_DIR$/java-advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week02/java-week02.iml" filepath="$PROJECT_DIR$/src/com/course/week02/java-week02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week06/java8/java8inaction.iml" filepath="$PROJECT_DIR$/src/com/course/week06/java8/java8inaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/spring-annotation/myspring-bean-annotation.iml" filepath="$PROJECT_DIR$/src/com/course/week05/spring-annotation/myspring-bean-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/spring-xml/myspring-bean-xml.iml" filepath="$PROJECT_DIR$/src/com/course/week05/spring-xml/myspring-bean-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/jdbc/myspring-jdbc.iml" filepath="$PROJECT_DIR$/src/com/course/week05/jdbc/myspring-jdbc.iml" />

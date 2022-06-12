@@ -1,6 +1,5 @@
 package gateway.inbound;
 
-import io.github.kimmking.gateway.filter.HttpRequestFilter;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

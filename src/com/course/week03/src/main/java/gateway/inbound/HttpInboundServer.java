@@ -11,8 +11,6 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import lombok.Data;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
@@ -20,11 +18,11 @@ import java.util.List;
 public class HttpInboundServer {
 
     private int port;
-    
+
     private List<String> proxyServers;
 
     public HttpInboundServer(int port, List<String> proxyServers) {
-        this.port=port;
+        this.port = port;
         this.proxyServers = proxyServers;
     }
 

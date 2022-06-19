@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" filepath="$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week07/db-learn.iml" filepath="$PROJECT_DIR$/src/com/course/week07/db-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-advanced.iml" filepath="$PROJECT_DIR$/java-advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week02/java-week02.iml" filepath="$PROJECT_DIR$/src/com/course/week02/java-week02.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week06/java8/java8inaction.iml" filepath="$PROJECT_DIR$/src/com/course/week06/java8/java8inaction.iml" />

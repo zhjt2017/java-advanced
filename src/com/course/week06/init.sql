@@ -40,13 +40,13 @@ CREATE TABLE IF NOT EXISTS `goods` (
 -- # 订单表:id、用户id、商品列表、订单状态、物流状态、总价、生成时间、更新时间
 CREATE TABLE IF NOT EXISTS `orders` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
+    `order_number` char(32) NOT NULL,
     `user_id` int(11) NOT NULL,
-    `commodities` varchar(10024) NOT NULL,
-    `status` int(1) NOT NULL,
-    `deliver_status` varchar(10024) NOT NULL,
+    `status` tinyint(2) NOT NULL,
+    `deliver_status` tinyint(2) NOT NULL,
     `total_price` int(11) NOT NULL,
-    `create_time` int(11) NOT NULL,
-    `update_time` int(11) NOT NULL,
+    `create_time` DEFAULT CURRENT_TIMESTAMP,
+    `update_time` DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`),
     foreign key (user_id) references users(id)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;

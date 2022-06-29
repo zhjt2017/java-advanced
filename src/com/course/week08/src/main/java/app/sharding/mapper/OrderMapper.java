@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Mapping of Order
  *
- * @author bruce.zhu@snowballtech.com
+ * @author bruce.zhu@GeekTrainingCamp
  * @since 2022-06-26 10:34:18
  */
 @Repository

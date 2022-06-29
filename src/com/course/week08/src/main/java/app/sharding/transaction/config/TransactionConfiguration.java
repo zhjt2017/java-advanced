@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 /**
  * Configuration of Sharding Transaction
  *
- * @author bruce.zhu@snowballtech.com
+ * @author bruce.zhu@GeekTrainingCamp
  * @since 2022-06-26 11:30:12
  */
 @Configuration

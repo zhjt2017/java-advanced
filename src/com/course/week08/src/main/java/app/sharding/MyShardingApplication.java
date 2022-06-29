@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Application of Db Sharding Demo
  *
- * @author bruce.zhu@snowballtech.com
+ * @author bruce.zhu@GeekTrainingCamp
  * @since 2022-06-26 10:34:18
  */
 @SpringBootApplication

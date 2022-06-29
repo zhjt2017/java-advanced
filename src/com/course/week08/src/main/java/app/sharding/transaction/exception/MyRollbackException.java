@@ -3,7 +3,7 @@ package app.sharding.transaction.exception;
 /**
  * 回滚时 自定义异常
  *
- * @author bruce.zhu@snowballtech.com
+ * @author bruce.zhu@GeekTrainingCamp
  * @since 2022-06-26 10:34:18
  */
 public class MyRollbackException extends Exception {

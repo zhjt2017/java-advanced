@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 /**
  * Tests for OrderService
  *
- * @author bruce.zhu@snowballtech.com
+ * @author bruce.zhu@GeekTrainingCamp
  * @since 2022-06-26 10:34:18
  */
 @SpringBootTest

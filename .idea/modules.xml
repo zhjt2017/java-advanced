@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-provider/dubbo-demo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/himly-tcc-dubbo/himly-tcc-dubbo.iml" filepath="$PROJECT_DIR$/src/com/course/week09/himly-tcc-dubbo/himly-tcc-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-advanced.iml" filepath="$PROJECT_DIR$/java-advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week02/java-week02.iml" filepath="$PROJECT_DIR$/src/com/course/week02/java-week02.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week06/java8/java8inaction.iml" filepath="$PROJECT_DIR$/src/com/course/week06/java8/java8inaction.iml" />
@@ -21,6 +22,11 @@
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/springboot-starter/myspringboot-starter.iml" filepath="$PROJECT_DIR$/src/com/course/week05/springboot-starter/myspringboot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week05/springboot-using/myspringboot-starter-using.iml" filepath="$PROJECT_DIR$/src/com/course/week05/springboot-using/myspringboot-starter-using.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week03/netty-gateway.iml" filepath="$PROJECT_DIR$/src/com/course/week03/netty-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpc-netty/rpc-netty.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpc-netty/rpc-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpc-netty/api/rpc-netty-api.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpc-netty/api/rpc-netty-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpc-netty/client/rpc-netty-client.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpc-netty/client/rpc-netty-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpc-netty/core/rpc-netty-core.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpc-netty/core/rpc-netty-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpc-netty/server/rpc-netty-server.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpc-netty/server/rpc-netty-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpcfx-demo/rpcfx.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpcfx-demo/rpcfx.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpcfx-demo/rpcfx-core/rpcfx-core.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpcfx-demo/rpcfx-core/rpcfx-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/rpcfx-demo/rpcfx-demo-api/rpcfx-demo-api.iml" filepath="$PROJECT_DIR$/src/com/course/week09/rpcfx-demo/rpcfx-demo-api/rpcfx-demo-api.iml" />

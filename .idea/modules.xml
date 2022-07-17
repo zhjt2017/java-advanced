@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" filepath="$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week07/db-learn.iml" filepath="$PROJECT_DIR$/src/com/course/week07/db-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week08/db-sharding-learn.iml" filepath="$PROJECT_DIR$/src/com/course/week08/db-sharding-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week11/distributed-data-redis/distributed-data-redis.iml" filepath="$PROJECT_DIR$/src/com/course/week11/distributed-data-redis/distributed-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo.iml" filepath="$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/src/com/course/week09/dubbo-demo/dubbo-demo-consumer/dubbo-demo-consumer.iml" />

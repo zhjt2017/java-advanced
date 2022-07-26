@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/com/course/week12/activemq-demo/activemq-demo.iml" filepath="$PROJECT_DIR$/src/com/course/week12/activemq-demo/activemq-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" filepath="$PROJECT_DIR$/src/com/course/week04/concurrent-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week07/db-learn.iml" filepath="$PROJECT_DIR$/src/com/course/week07/db-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/com/course/week08/db-sharding-learn.iml" filepath="$PROJECT_DIR$/src/com/course/week08/db-sharding-learn.iml" />

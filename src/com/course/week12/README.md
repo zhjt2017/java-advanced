@@ -4,6 +4,7 @@
 
 - 1.（必做）配置 redis 的主从复制，sentinel 高可用，Cluster 集群。
   - 配置见 redis-config, 先实现sentinel配置，Cluster后续补上。
+  - 其他心得：Redis现在使用Cluster，对应的Redis锁实现，推荐使用Redisson
 
 - 2.（选做）练习示例代码里下列类中的作业题:
   - 08cache/redis/src/main/java/io/kimmking/cache/RedisApplication.java
@@ -15,7 +16,8 @@
 - 5.（选做☆☆☆）搭建 hazelcast 3 节点集群，写入 100 万数据到一个 map，模拟和演 示高可用。
 
 - 6.（必做）搭建 ActiveMQ 服务，基于 JMS，写代码分别实现对于 queue 和 topic 的消息生产和消费，代码提交到 github。
-  - a
+  - activemq-demo
+    - docker run -d -p 61616:61616 --name activemq webcenter/activemq
 
 - 7.（选做）基于数据库的订单表，模拟消息队列处理订单：
   - 一个程序往表里写新订单，标记状态为未处理 (status=0);

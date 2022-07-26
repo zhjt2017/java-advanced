@@ -3,7 +3,7 @@
 ## 作业内容
 
 - 1.（必做）配置 redis 的主从复制，sentinel 高可用，Cluster 集群。
-  - a
+  - 配置见 redis-config, 先实现sentinel配置，Cluster后续补上。
 
 - 2.（选做）练习示例代码里下列类中的作业题:
   - 08cache/redis/src/main/java/io/kimmking/cache/RedisApplication.java
